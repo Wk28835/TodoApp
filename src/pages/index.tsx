@@ -90,7 +90,7 @@ const MyTodo: React.FC = () => {
 
             <label className="block text-white mb-2 text-sm sm:text-base">Title</label>
             <input
-              className="w-full p-2 mb-4 border border-gray-300 rounded-lg text-sm sm:text-base focus:ring-2 focus:ring-pink-500 focus:outline-none"
+              className="w-full p-2 mb-4 text-black border border-gray-300 rounded-lg text-sm sm:text-base focus:ring-2 focus:ring-pink-500 focus:outline-none"
               name="title"
               type="text"
               onChange={handleChange}
@@ -100,7 +100,7 @@ const MyTodo: React.FC = () => {
 
             <label className="block text-white mb-2 text-sm sm:text-base">Description</label>
             <textarea
-              className="w-full p-2 mb-4 border border-gray-300 rounded-lg text-sm sm:text-base focus:ring-2 focus:ring-pink-500 focus:outline-none"
+              className="w-full p-2 mb-4 text-black border border-gray-300 rounded-lg text-sm sm:text-base focus:ring-2 focus:ring-pink-500 focus:outline-none"
               name="description"
               onChange={handleChange}
               value={formData.description}
