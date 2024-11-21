@@ -76,14 +76,12 @@ const MyTodo: React.FC = () => {
     >
       <ToastContainer />
       <div className="text-4xl sm:text-5xl mt-2 font-medium text-white">
-        <h1 className="text-center bg-black bg-opacity-30 py-2 px-4 rounded-lg">
-          My Todo App
-        </h1>
+        
       </div>
 
       <div className="mt-4 sm:mt-8 flex items-center justify-center">
         <form onSubmit={handleSubmit}>
-          <div className="w-full max-w-md bg-pink-400 bg-opacity-70 p-4 rounded-lg shadow-lg">
+          <div className="w-full max-w-md bg-pink-400 bg-opacity-80 p-4 rounded-lg shadow-lg">
             <h1 className="font-bold text-2xl sm:text-3xl text-white text-center mb-4">
               New Todo
             </h1>
